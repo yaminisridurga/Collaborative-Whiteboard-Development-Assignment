@@ -1,0 +1,45 @@
+.room-join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.room-input {
+  padding: 12px 20px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: border 0.3s ease;
+}
+
+.room-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.join-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}
